@@ -1,6 +1,7 @@
 
+---
 
-# Homework Week 1
+# SheCodesLesson1
 
 ## Descrição
 Este projeto é uma página HTML simples que exibe a previsão do tempo para Tóquio. A página contém um cabeçalho, uma lista de previsões para os próximos dias, um botão para alterar a cidade e um rodapé com créditos.
@@ -9,18 +10,18 @@ Este projeto é uma página HTML simples que exibe a previsão do tempo para Tó
 Para visualizar esta página, você só precisa de um navegador web moderno.
 
 ## Instalação
-Não há instalação necessária. Basta abrir o arquivo `index.html` em qualquer navegador.
+Não há instalação necessária. Basta abrir o arquivo `homework-week1.html` em qualquer navegador.
 
 ## Uso
 1. Clone o repositório para sua máquina local:
     ```sh
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/seu-usuario/SheCodesLesson1.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
-    cd nome-do-repositorio
+    cd SheCodesLesson1
     ```
-3. Abra o arquivo `index.html` em seu navegador.
+3. Abra o arquivo `homework-week1.html` em seu navegador.
 
 ## Estrutura do Código
 ### HTML
@@ -79,5 +80,3 @@ Contribuições são bem-vindas! Por favor, envie um pull request ou abra uma is
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ---
-
-Esse README fornece uma visão geral clara do projeto, instruções sobre como usá-lo e informações adicionais úteis.
