@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>"iogurt"</title>
+        <style>
+            body {
+                font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+                background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+                margin: 80px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+            }
+
+            h1,
+            h2 {
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 48px;
+                margin: 10px;
+            }
+            h1 {
+                color: rgb(240, 239, 245);
+                border: 2px solid #efeef2;
+                border-radius: 10px;
+                padding: 30px;
+                width: 50%;
+                box-sizing: border-box;
+            }
+            h2 {
+                color: #eceaf1;
+                padding: 15px 0;
+            }
+            img {
+                width: 400px;
+                margin-top: 20px;
+            }
+            hr {
+                width: 50%;
+                border: 0;
+                border-top: 2px solid #885df1; /* Define a cor e a largura da linha */
+                margin: 20px 0;
+            }
+            .content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                max-width: 800px;
+            }
+            p {
+                font-size: 18px;
+                line-height: 28px;
+                font-family: PT Mono, monospace;
+                text-align: justify;
+                max-width: 600px;
+            }
+
+            button {
+                border-radius: 25px;
+                margin: 20px auto;
+                display: block;
+                background-color: #fff;
+                border: 1px solid #885df1;
+                color: #885df1;
+                font-size: 16px;
+                line-height: 22px;
+                padding: 16px 24px;
+                text-decoration: none;
+                transition: all 200ms ease;
+            }
+            button:hover {
+                color: #fff;
+                background: #885df1;
+            }
+
+            .footer {
+                margin-top: 20px;
+            }
+            p {
+                color: #eceaf1;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>I love "Iogurt"</h1>
+        <hr />
+        <h2>Especially "Vegan Iogurt"</h2>
+        <br />
+        <hr />
+        <div class="content">
+            <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/979/original/iogurt.jpg?1716212416"
+                alt="two glasses of natural iogurt on wood table"
+            />
+            <br />
+            <hr />
+            <p class="footer">
+                Soy<strong> " Iogurt "</strong> may have a slight beany soy
+                taste when made directly from freshly prepared soy milk, but
+                this is less pronounced in shop-bought soy yogurt and in soy
+                yogurt made from commercial soy milk. Soy yogurt is similar in
+                protein content to dairy yogurt, lower in sugar, and higher in
+                fat. If not fortified, soy yogurt does not contain vitamin B12
+                or vitamin D.
+                <br />
+                <a
+                    href="https://en.wikipedia.org/wiki/Soy_yogurt"
+                    target="_blank"
+                    >Learn more on Wikipedia</a
+                >
+            </p>
+        </div>
+        <button class="tryIogurtButton">Try "Iogurt"</button>
+        <p>
+            This page was built by
+            <a href="https://www.linkedin.com/in/elisetecercal/" target="_blank"
+                >Elisete Cercal</a
+            >
+        </p>
+        <script>
+            function tryIogurt() {
+                let name = prompt("What is your name?");
+                let email = prompt("What is your email address?");
+
+                if (name && email) {
+                    alert(
+                        "Thank you " +
+                            name +
+                            "! We'll be in touch by email, mean while have a lot of yogurt! "
+                    );
+                } else {
+                    alert("Please provide all the required information.");
+                }
+            }
+            let tryIogurtButton = document.querySelector(".tryIogurtButton");
+            tryIogurtButton.addEventListener("click", tryIogurt);
+        </script>
+    </body>
+</html>
